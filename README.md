@@ -1,6 +1,6 @@
 # QMoE
 
-This repository contains the full code of the paper [QMoE: Practical Sub-1-Bit Compression of Trillion-Parameter Models]().
+This repository contains the full code of the paper [QMoE: Practical Sub-1-Bit Compression of Trillion-Parameter Models](https://arxiv.org/abs/2310.16795).
 
 It is organized as follows:
 
@@ -74,6 +74,6 @@ If you found this work useful, please consider citing:
   title={{QMoE}: Practical Sub-1-Bit Compression of Trillion-Parameter Models}
   author={Elias Frantar and Dan Alistarh},
   year={2023},
-  journal={arXiv preprint}
+  journal={arXiv preprint, arxiv:2310.16795}
 }
 ```
