@@ -57,13 +57,13 @@ CUDA_VISIBLE_DEVICES=0 python sub1.py PATH_TO_COMP_MODEL --gentokens 128
 CUDA_VISIBLE_DEVICES=0 python sub1.py PATH_TO_COMP_MODEL --gentokens 128 --simul
 ```
 
-In general, you can pass `google/switch-large-128` and `google/switch-c-2048` to run on large-128 and c-2048, respectively. We note that other SwitchTransformer models than those 3 may not work out-of-the-box due to HuggingFace bugs.
+In general, you can pass `google/switch-large-128` and `google/switch-c-2048` to run on large-128 and c-2048, respectively. We note that other SwitchTransformer models than those 3 may not work out-of-the-box due to Hugging Face bugs.
 
 Always specify `CUDA_VISIBLE_DEVICES` since some commands, like `sub1.py`, will otherwise attempt to use all available GPUs.
 
 ## Compressed Models
 
-Our models in compressed custom QMoE format are available on HuggingFace: [base-128](https://huggingface.co/ISTA-DASLab/switch-base-128_qmoe), [large-128](https://huggingface.co/ISTA-DASLab/switch-large-128_qmoe) and [c-2048](https://huggingface.co/ISTA-DASLab/switch-c-2048_qmoe). To use them, clone the repository and then simply pass their path to `sub1.py`.
+Our models in compressed custom QMoE format are available on Hugging Face: [base-128](https://huggingface.co/ISTA-DASLab/switch-base-128_qmoe), [large-128](https://huggingface.co/ISTA-DASLab/switch-large-128_qmoe) and [c-2048](https://huggingface.co/ISTA-DASLab/switch-c-2048_qmoe). To use them, clone the repository and then simply pass their path to `sub1.py`.
 
 ## Cite
 
